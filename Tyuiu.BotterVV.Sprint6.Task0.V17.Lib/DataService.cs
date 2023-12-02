@@ -12,7 +12,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task0.V17.Lib
         public double Calculate(int x)
         {
             double y = (Math.Pow(Math.E, x)) / x;
-            return Math.Round(y, 3);
+            return Math.Round(y, 3)
         }
     }
 }
