@@ -42,7 +42,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task0.V17
 
         private void buttonMessageBVV_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнил студент группы ПКТб-23-2 Боттер Вадим Валерьевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            MessageBox.Show("Таск 0 выполнил студент группы ПКТб-23-2 Боттер Вадим Валерьевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
     }
 }
