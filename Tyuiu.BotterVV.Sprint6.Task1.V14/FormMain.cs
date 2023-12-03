@@ -39,7 +39,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
                 textBoxResultBVV.AppendText("|   X     |   f(x)  |" + Environment.NewLine);
                 textBoxResultBVV.AppendText("+---------+---------+" + Environment.NewLine);
 
-                for (int i = 0; i < len - 1; i++)
+                for (int i = 0; i < len; i++)
                 {
                     strLine = String.Format("|{0,5:d}    | {1, 5:f2}  |", startStep, valueArray[i]);
                     textBoxResultBVV.AppendText(strLine + Environment.NewLine);

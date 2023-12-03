@@ -14,7 +14,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14.Test
             int startValue = -5;
             int stopValue = 5;
 
-            int len = (stopValue - startValue) + 2;
+            int len = (stopValue - startValue) + 1;
 
             double[] valueWaitArray;
             valueWaitArray = new double[len];
