@@ -37,10 +37,10 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
             this.labelResultBVV = new System.Windows.Forms.Label();
             this.buttonResultBVV = new System.Windows.Forms.Button();
             this.groupBoxIntDataBVV = new System.Windows.Forms.GroupBox();
+            this.textBoxStopValueBVV = new System.Windows.Forms.TextBox();
+            this.textBoxStartValueBVV = new System.Windows.Forms.TextBox();
             this.labelStopValueBVV = new System.Windows.Forms.Label();
             this.labelStartValueBVV = new System.Windows.Forms.Label();
-            this.textBoxStartValueBVV = new System.Windows.Forms.TextBox();
-            this.textBoxStopValueBVV = new System.Windows.Forms.TextBox();
             this.buttonMessageBVV = new System.Windows.Forms.Button();
             this.groupBoxTaskBVV.SuspendLayout();
             this.groupBoxResultBVV.SuspendLayout();
@@ -125,6 +125,20 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
             this.groupBoxIntDataBVV.TabStop = false;
             this.groupBoxIntDataBVV.Text = "Ввод данных";
             // 
+            // textBoxStopValueBVV
+            // 
+            this.textBoxStopValueBVV.Location = new System.Drawing.Point(150, 38);
+            this.textBoxStopValueBVV.Name = "textBoxStopValueBVV";
+            this.textBoxStopValueBVV.Size = new System.Drawing.Size(86, 20);
+            this.textBoxStopValueBVV.TabIndex = 3;
+            // 
+            // textBoxStartValueBVV
+            // 
+            this.textBoxStartValueBVV.Location = new System.Drawing.Point(9, 38);
+            this.textBoxStartValueBVV.Name = "textBoxStartValueBVV";
+            this.textBoxStartValueBVV.Size = new System.Drawing.Size(83, 20);
+            this.textBoxStartValueBVV.TabIndex = 2;
+            // 
             // labelStopValueBVV
             // 
             this.labelStopValueBVV.AutoSize = true;
@@ -142,20 +156,6 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
             this.labelStartValueBVV.Size = new System.Drawing.Size(67, 13);
             this.labelStartValueBVV.TabIndex = 0;
             this.labelStartValueBVV.Text = "Старт шага:";
-            // 
-            // textBoxStartValueBVV
-            // 
-            this.textBoxStartValueBVV.Location = new System.Drawing.Point(9, 38);
-            this.textBoxStartValueBVV.Name = "textBoxStartValueBVV";
-            this.textBoxStartValueBVV.Size = new System.Drawing.Size(83, 20);
-            this.textBoxStartValueBVV.TabIndex = 2;
-            // 
-            // textBoxStopValueBVV
-            // 
-            this.textBoxStopValueBVV.Location = new System.Drawing.Point(150, 38);
-            this.textBoxStopValueBVV.Name = "textBoxStopValueBVV";
-            this.textBoxStopValueBVV.Size = new System.Drawing.Size(86, 20);
-            this.textBoxStopValueBVV.TabIndex = 3;
             // 
             // buttonMessageBVV
             // 
@@ -178,6 +178,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
             this.Controls.Add(this.buttonResultBVV);
             this.Controls.Add(this.groupBoxResultBVV);
             this.Controls.Add(this.groupBoxTaskBVV);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
