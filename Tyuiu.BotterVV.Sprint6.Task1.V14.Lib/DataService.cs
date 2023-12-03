@@ -19,9 +19,9 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
                 y = (2 * x + 6 / (Math.Cos(x) + x)) - 3;
-                valueArray[count] = y;
+                valueArray[count] = Math.Round(y, 2);
                 count++;
-                if (y == 0)
+                if ((Math.Cos(x) + x) == 0)
                 {
                     valueArray[count] = 0;
                 }
