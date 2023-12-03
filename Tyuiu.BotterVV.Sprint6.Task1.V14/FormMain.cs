@@ -41,7 +41,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task1.V14
 
                 for (int i = 0; i < len; i++)
                 {
-                    strLine = String.Format("|{0,5:d}    | {1, 5:f2}  |", startStep, valueArray[i]);
+                    strLine = String.Format("|{0,6:d}   | {1, 7:f2} |", startStep, valueArray[i]);
                     textBoxResultBVV.AppendText(strLine + Environment.NewLine);
                     startStep++;
                 }
