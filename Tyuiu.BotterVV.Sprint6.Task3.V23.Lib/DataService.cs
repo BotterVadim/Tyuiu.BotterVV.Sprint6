@@ -15,16 +15,12 @@ namespace Tyuiu.BotterVV.Sprint6.Task3.V23.Lib
             int columns = matrix.Length / rows;
 
             int[] array = new int[rows];
-            int a = columns;
 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    for (int k = 0; k < a; k++)
-                    {
-                        array[k] = matrix[i, a-4];
-                    }
+                    array[i] = matrix[i, 1];
                 }
             }
 
@@ -33,10 +29,7 @@ namespace Tyuiu.BotterVV.Sprint6.Task3.V23.Lib
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    for (int k = 0; k < a; k++)
-                    {
-                        matrix[i, a-4] = array[k];
-                    }
+                    matrix[i, 1] = array[i];
                 }
             }
             return matrix;
