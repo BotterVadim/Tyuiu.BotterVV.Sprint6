@@ -14,7 +14,6 @@ namespace Tyuiu.BotterVV.Sprint6.Task6.V6
 {
     public partial class FormMain : Form
     {
-        OpenFileDialog openFileDialogTask = new OpenFileDialog();
         DataService ds = new DataService();
         string openFilePath;
         public FormMain()
@@ -24,10 +23,10 @@ namespace Tyuiu.BotterVV.Sprint6.Task6.V6
 
         private void buttonOpenFile_BVV_Click(object sender, EventArgs e)
         {
-            openFileDialogTask.ShowDialog();
-            openFilePath = openFileDialogTask.FileName;
+            openFileDialogTask_BVV.ShowDialog();
+            openFilePath = openFileDialogTask_BVV.FileName;
             textBoxIn_BVV.Text = File.ReadAllText(openFilePath);
-            groupBoxOutPut_BVV.Text = groupBoxOutPut_BVV.Text + " " + openFileDialogTask.FileName;
+            groupBoxOutPut_BVV.Text = groupBoxOutPut_BVV.Text + " " + openFileDialogTask_BVV.FileName;
             buttonDone_BVV.Enabled = true;
         }
 
